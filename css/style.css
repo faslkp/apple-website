@@ -146,6 +146,9 @@
 * {
     font-family: 'Helvetica Neue';
 }
+body {
+    min-width: 320px;
+}
 
 header {
     height: 3rem;
@@ -179,6 +182,7 @@ header svg {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    min-height: 620px;
 }
 .iphone .home-section div.top h1 {
     font-weight: 500;
@@ -245,7 +249,7 @@ header svg {
 .width-48 {
     width: 48%;
 }
-.airpods div.bottom h3, .mac div.bottom h3 {
+.airpods div.bottom h3, .mac div.bottom h3, .imac div.top h3 {
     font-size: 2.5rem;
 }
 .watch {
@@ -336,5 +340,24 @@ p.sub {
     }
     .flex-parent {
         height: auto !important;
+    }
+}
+@media all and (max-width: 737px) {
+    .iphone16-pro div.home-section {
+        background-image: url("../images/iphone16pro-sm.jpg");
+    }
+    .iphone16 div.home-section {
+        background-image: url("../images/iphone16-sm.jpg");
+    }
+    .iphone .home-section div.top h1 {
+        font-weight: 500;
+        font-size: 2.4rem;
+    }
+    .iphone .home-section div.top h5 {
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .gift-magic div.home-section h2 {
+        font-size: 3rem;
     }
 }
