@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Apple (India)</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="bg-header sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <svg id="brand-logo" height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z">
+                        </path>
+                    </svg>
+                </a>
+                
+                <div class="collapse navbar-collapse mx-auto justify-content-center bg-header px-5 px-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mac</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">iPad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">iPhone</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AirPods</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">TV & Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Entertainment</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="my-2 my-lg-0 d-none d-sm-none d-md-block">
+                    <span class="d-inline-block mx-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
+                            <path
+                                d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span>
+                        <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z">
+                            </path>
+                        </svg>
+                    </span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="iphone iphone16-pro">
+        <div class="announcement bg-header">
+            <div class="mx-auto">
+                <p class="text-white text-center py-2">Get up to ₹10000.00 instant cashback with eligible cards.* Plus
+                    up to 12 months of No Cost EMI.<sup>‡</sup> <a href="#">Shop &#5171;</a></p>
+            </div>
+        </div>
+        <div class="home-section py-5 d-flex flex-column justify-content-between">
+            <div class="top">
+                <h1 class="text-white text-center">iPhone 16 Pro</h1>
+                <h5 class="text-white text-center">Built for Apple Intelligence.</h5>
+            </div>
+            <div class="bottom">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                    <a href="#" class="btn btn-outline-primary">Buy</a>
+                </div>
+                <p class="text-secondary text-center mt-3">Apple Intelligence available now in US English<sup>1</sup>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="iphone iphone16">
+        <div class="home-section py-5 d-flex flex-column justify-content-between">
+            <div class="top">
+                <h1 class="text-white text-center">iPhone 16</h1>
+                <h5 class="text-white text-center">Built for Apple Intelligence.</h5>
+            </div>
+            <div class="bottom">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                    <a href="#" class="btn btn-outline-primary">Buy</a>
+                </div>
+                <p class="text-secondary text-center mt-3">Apple Intelligence available now in US English<sup>1</sup>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gift-magic iphone pb-5">
+        <div class="home-section d-flex align-items-end justify-content-center">
+            <div class="bottom text-center">
+                <h2 class="text-center text-black">Gift magic.</h2>
+                <h6 class="text-center text-black">Make their holiday wish come true.</h6>
+                <a href="#" class="btn btn-primary">Shop gifts</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="iphone pad-pod p-md-2 bg-white">
+        <div class="home-section flex-parent d-md-flex justify-content-around">
+            <div class="ipad width-48 d-flex flex-column justify-content-between pt-5 pb-3 mr-3">
+                <div class="top">
+                    <h3 class="img-fluid text-center">
+                        <img src="./images/ipadair_large.png" alt="ipad-air">
+                    </h3>
+                    <p class="sub text-center">Two sizes. Faster chip. Does it all.</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                        <a href="#" class="btn btn-outline-primary">Buy</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="mb-0 text-center">
+                        <span class="gradient mx-auto">Built for Apple Intelligence.</span>
+                    </p>
+                    <p class="text-secondary text-center mt-1">Apple Intelligence available now in US
+                        English<sup>1</sup></p>
+                </div>
+            </div>
+            <div class="airpods  width-48 ipad d-flex align-items-end justify-content-center pt-5 pb-3">
+                <div class="bottom">
+                    <h3 class="text-center text-white">AirPods 4</h3>
+                    <p class="sub text-center text-white">Iconic. New supersonic.<br>Available with Active Noice
+                        Cancellation.<sup>2</sup></p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                        <a href="#" class="btn btn-outline-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="iphone watch-mac p-md-2 bg-white">
+        <div class="home-section flex-parent d-md-flex justify-content-around">
+            <div class="watch width-48 d-flex flex-column justify-content-between pt-5 pb-3 mr-3">
+                <div class="top">
+                    <h3 class="img-fluid text-center">
+                        <img src="./images/apple_watch_logo.png" alt="ipad-air">
+                    </h3>
+                    <p class="sub text-center">Thinstant classic.</p>
+                    <div class="button-box d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                        <a href="#" class="btn btn-outline-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mac width-48 ipad col-md-6 d-flex justify-content-center pt-5 pb-3">
+                <div class="bottom">
+                    <h3 class="text-center">MacBook Air</h3>
+                    <p class="sub text-center">Supercharged by M3.</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                        <a href="#" class="btn btn-outline-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="iphone watch-mac p-md-
+    2 bg-white">
+        <div class="home-section flex-parent d-md-flex justify-content-around">
+            <div class="imac width-48 d-flex flex-column justify-content-between pt-5 pb-3 mr-3">
+                <div class="top">
+                    <h3 class="img-fluid text-center">iMac</h3>
+                    <p class="sub text-center">
+                        <span class="c0">Bri</span>
+                        <span class="c1">l</span>
+                        <span class="c2">l</span>
+                        <span class="c3">l</span>
+                        <span class="c4">l</span>
+                        <span class="c5">l</span>
+                        <span class="c6">l</span>
+                        iant.
+                    </p>
+                    <div class="button-box d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                        <a href="#" class="btn btn-outline-primary">Buy</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="mb-0 text-center">
+                        <span class="gradient mx-auto">Built for Apple Intelligence.</span>
+                    </p>
+                    <p class="text-secondary text-center mt-1">Apple Intelligence available now in US
+                        English<sup>1</sup></p>
+                </div>
+            </div>
+            <div class="tradein width-48 ipad col-md-6 d-flex justify-content-center pt-5 pb-3">
+                <div class="bottom">
+                    <h3 class="text-center">
+                        <img src="./images/tradein_logo_large.png" alt="tradein">
+                    </h3>
+                    <p class="sub text-center">Updrade and save. It's that easy.</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary">Get your estimate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="pt-5">
+        <div class="container">
+            <div class="terms">
+                <p class="text-secondary text-justify">
+                    *Instant cashback is available with the purchase of an eligible product with qualifying American
+                    Express, Axis Bank and ICICI Bank cards only. Minimum transaction value of ₹10001.00 applies. Click
+                    here to see instant cashback amounts and eligible devices. Instant cashback is available for up to
+                    two orders per rolling 90-day period with an eligible card. Card eligibility is subject to terms and
+                    conditions between you and your card issuer. Total transaction value is calculated after any
+                    trade-in credit or eligible discount is applied. Any subsequent order adjustment(s) or
+                    cancellation(s) may result in instant cashback being recalculated, and any refund may be adjusted to
+                    account for instant cashback clawback; this may result in no refund being made to you. Offer may be
+                    revised or withdrawn at any time without any prior notice. Additional terms apply. Instant cashback
+                    is not available to Business customers and cannot be combined with Apple Store for Education or
+                    Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be combined for instant
+                    cashback.
+                </p>
+                <p class="text-secondary text-justify">
+                    ‡No Cost EMI is available with the purchase of an eligible product made using qualifying cards on
+                    3-, 6-, 9- or 12-month tenures from most leading card issuers. Eligible AirPods, HomePod and Beats
+                    products are excluded from No Cost EMI on 9- and 12-month tenures. Monthly pricing is rounded to the
+                    nearest rupee. Exact pricing will be provided by your card issuer, subject to your card issuer’s
+                    terms and conditions. Minimum order spend applies as per your card issuer’s threshold. No Cost EMI
+                    is not available to Business customers and cannot be combined with Apple Store for Education or
+                    Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions
+                    between you and your card issuer. Offer may be revised or withdrawn at any time without any prior
+                    notice. Terms Apply.
+                </p>
+                <p class="text-secondary text-justify">
+                    Representative example: Based on a 12-month tenure. ₹79900.00 total cost includes 15.99% p.a. and No
+                    Cost EMI savings of ₹6514.00, paid over 12 months as 12 monthly payments of ₹6658.00.
+                </p>
+                <p class="text-secondary text-justify">
+                    1. Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro
+                    Max, iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language
+                    set to English (Australia, Canada, Ireland, New Zealand, South Africa, UK or US), as part of an iOS
+                    18, iPadOS 18 and macOS Sequoia software update. Additional features and languages will be available
+                    in April, with more languages coming over the course of the year. Languages supported in 2025
+                    include Chinese, English (India, Singapore), French, German, Italian, Japanese, Korean, Portuguese,
+                    Spanish and Vietnamese.
+                </p>
+                <p class="text-secondary text-justify">
+                    2. Available in two models: AirPods 4 and AirPods 4 with Active Noise Cancellation.
+                </p>
+                <p class="text-secondary text-justify">
+                    A subscription is required for Apple TV+.
+                </p>
+                <p class="text-secondary text-justify">
+                    Features are subject to change. Some features, applications and services may not be available in all
+                    regions or all languages.
+                </p>
+            </div>
+            <hr>
+            <div class="links d-sm-flex flex-wrap justify-content-between">
+                <div class="col1">
+                    <h6>Shorp and Learn</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">AirPods</a></li>
+                        <li><a href="#">TV & Home</a></li>
+                        <li><a href="#">AirTag</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                    <h6>Apple Wallet</h6>
+                    <ul>
+                        <li><a href="#">Wallet</a></li>
+                    </ul>
+                </div>
+                <div class="col2">
+                    <h6>Account</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Manage Your Apple Account</a></li>
+                        <li><a href="#">Apple Store Account</a></li>
+                        <li><a href="#">iCloud.com</a></li>
+                    </ul>
+                    <h6>Entertainment</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Apple One</a></li>
+                        <li><a href="#">Apple TV+</a></li>
+                        <li><a href="#">Apple Music</a></li>
+                        <li><a href="#">Apple Arcade</a></li>
+                        <li><a href="#">Apple Podcasts</a></li>
+                        <li><a href="#">Apple Books</a></li>
+                        <li><a href="#">Apple Store</a></li>
+                    </ul>
+                </div>
+                <div class="col3">
+                    <h6>Apple Store</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Find a Store</a></li>
+                        <li><a href="#">Genius Bar</a></li>
+                        <li><a href="#">Today at Apple</a></li>
+                        <li><a href="#">Group Reservations</a></li>
+                        <li><a href="#">Apple Camp</a></li>
+                        <li><a href="#">Apple Trade In</a></li>
+                        <li><a href="#">Ways to Buy</a></li>
+                        <li><a href="#">Recycling Programme</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Shopping Help</a></li>
+                    </ul>
+                </div>
+                <div class="col4">
+                    <h6>For Business</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Apple for Business</a></li>
+                        <li><a href="#">Shop for Business</a></li>
+                    </ul>
+                    <h6>For Education</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Apple and Education</a></li>
+                        <li><a href="#">Shop for Education</a></li>
+                        <li><a href="#">Shop for University</a></li>
+                    </ul>
+                    <h6>For Healthcare</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Apple in Healthcare</a></li>
+                        <li><a href="#">Mac in Healthcare</a></li>
+                        <li><a href="#">Health on Apple Watch</a></li>
+                    </ul>
+                </div>
+                <div class="col5">
+                    <h6>Apple Values</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Environment</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Supply Chain</a></li>
+                    </ul>
+                    <h6>About Apple</h6>
+                    <ul class="mb-2">
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Apple Leadership</a></li>
+                        <li><a href="#">Career Opportunities</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Ethics & Compliance</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact Apple</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-texts">More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 000800 040 1966.</p>
+            <hr>
+            <div class="row footer-texts">
+                <p class="col-md-4">Copyright © 2024 Apple Inc. All rights reserved.</p>
+                <p class="col-md-4">Privacy Policy | Terms of Use | Sales Policy | Legal | Site Map</p>
+                <p class="col-md-4 text-end">India</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script>
+        const myCarouselElement = document.querySelector('#myCarousel')
+
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+            interval: 2000,
+            touch: false
+        })
+    </script>
+</body>
+
+</html>
