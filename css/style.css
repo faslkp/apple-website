@@ -137,7 +137,6 @@ p.sub {
     display: none;
     top: 100%;
     overflow: hidden;
-    max-height: 400px;
     animation-name: falldown;
     animation-duration: 0.5s;
 }
