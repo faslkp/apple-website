@@ -14,3 +14,9 @@ function hideHoverMenu(){
     hoverMenu.style.zIndex = "-100";
     hoverMenu.style.display = "none";
 }
+
+document.getElementById("togglerButton").addEventListener('click', function(){
+    var buttonIcon = document.getElementById("toggleButtonIcon")
+    buttonIcon.classList.toggle("btn-close")
+    buttonIcon.classList.toggle("btn-close-white")
+})

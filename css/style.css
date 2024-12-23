@@ -136,7 +136,7 @@ p.sub {
 .hover-menu {
     display: none;
     top: 100%;
-    overflow: hidden;
+    overflow-y: scroll;
     animation-name: falldown;
     animation-duration: 0.5s;
 }
