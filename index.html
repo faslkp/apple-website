@@ -122,34 +122,34 @@
                 
                 <div class="collapse navbar-collapse mx-auto justify-content-center bg-header px-5 px-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item active" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">Store</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">Mac</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">iPad</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">iPhone</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">Watch</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">AirPods</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">TV & Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">Entertainment</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">Accessories</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" onmouseover="showHoverMenu()">
                             <a class="nav-link" href="#">Support</a>
                         </li>
                     </ul>
@@ -177,7 +177,41 @@
                 </button>
             </nav>
         </div>
+        <div class="hover-menu bg-header position-absolute w-100 pt-4 sticky-top" id="hoverMenu" onmouseleave="hideHoverMenu()">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="fs-6 text-secondary small-text">Shop</p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white fs-4 text-decoration-none">Shop the Latest</a></li>
+                        <li><a href="#" class="text-white fs-4 text-decoration-none">Mac</a></li>
+                        <li><a href="#" class="text-white fs-4 text-decoration-none">iPad</a></li>
+                        <li><a href="#" class="text-white fs-4 text-decoration-none">iPhone</a></li>
+                        <li><a href="#" class="text-white fs-4 text-decoration-none">Apple Watch</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="fs-6 text-secondary small-text">Quick Links</p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white fs6 text-decoration-none small-text">Shop Holiday Gifts</a></li>
+                        <li><a href="#" class="text-white fs6 text-decoration-none small-text">Find a Store</a></li>
+                        <li><a href="#" class="text-white fs6 text-decoration-none small-text">Order Status</a></li>
+                        <li><a href="#" class="text-white fs6 text-decoration-none small-text">Ways to Buy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="fs-6 text-secondary small-text">Shop Special Stores</p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white fs6 text-decoration-none small-text">Education</a></li>
+                        <li><a href="#" class="text-white fs6 text-decoration-none small-text">Business</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
     </header>
+    
+    
 
     <section class="iphone iphone16-pro">
         <div class="announcement bg-header">
